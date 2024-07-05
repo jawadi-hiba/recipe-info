@@ -1,9 +1,7 @@
-import { useState } from "react";
 import "./App.css";
 import { assets } from "./assets/assets.js";
-function App() {
-  const [count, setCount] = useState(0);
 
+function App() {
   return (
     <>
       <div className="header">
@@ -12,12 +10,12 @@ function App() {
           <h2>Simple Omelette Reciepe</h2>
           <p>
             An enjoy and quick dish, perfect for any meal.This classic omelette
-            combines beaten eggs cooked too perfection , optionally filled with
-            your choice of cheese ,vegetables ,or meats
+            combines beaten eggs cooked too perfections
           </p>
         </div>
         <div className="discription">
-          <ul className="time-liste">
+          <ul className="time-list">
+            <h3>Preparation Time </h3>
             <il>
               <span>Total:</span> Approximitely 10min
             </il>
