@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <div className="header">
-        <img src={assets.headpic} alt="header-img" className="header-pic" />
+        <img src={assets.headpic} alt="header-img" />
         <div className="header-disc">
           <h2>Simple Omelette Reciepe</h2>
           <p>
@@ -16,85 +16,67 @@ function App() {
         <div className="discription">
           <ul className="time-list">
             <h3>Preparation Time </h3>
-            <il>
+            <li>
               <span>Total:</span> Approximitely 10min
-            </il>
-            <il>
+            </li>
+            <li>
               <span>preparation:</span> 5 minutes
-            </il>
-            <il>
+            </li>
+            <li>
               <span>cooking:</span> 5 minutes
-            </il>
+            </li>
           </ul>
         </div>
         <div className="ingredients">
           <h3>ingredients</h3>
-          <ul className="time-liste">
-            <il>2-3larhe eggs</il>
-            <il>salt,to faste</il>
-            <il>1tablespoon of butter or oil </il>
-            <il>optional fillings: cheese,, diced vegetables,herbs </il>
+          <ul className="ingredients-list">
+            <li>2-3larhe eggs</li>
+            <li>salt,to faste</li>
+            <li>1tablespoon of butter or oli </li>
+            <li>optional flilings: cheese,, diced vegetables,herbs </li>
           </ul>
           <hr></hr>
         </div>
         <div className="instruction">
           <h3>Instructions</h3>
-          <ul>
-            <il>
+          <ol>
+            <li>
               <span>Beat the eggs:</span>A well-written resume job description
               can offer hiring managers important indications regarding the type
               of employee you are and the potential value you can bring to an
-              organization. Regardless of your qualifications, showing that you
-              have a history of using your knowledge and skills for other
-              companies should increase your odds of being considered for the
-              position
-            </il>
-            <il>
+              organization. Regardless of your qualifications
+            </li>
+            <li>
               <span>Heat the pan:</span>A well-written resume job description
               can offer hiring managers important indications regarding the type
               of employee you are and the potential value you can bring to an
-              organization. Regardless of your qualifications, showing that you
-              have a history of using your knowledge and skills for other
-              companies should increase your odds of being considered for the
-              position
-            </il>
-            <il>
+              organization. Regardless of your qualifications
+            </li>
+            <li>
               <span>cook the omlette:</span>A well-written resume job
               description can offer hiring managers important indications
               regarding the type of employee you are and the potential value you
-              can bring to an organization. Regardless of your qualifications,
-              showing that you have a history of using your knowledge and skills
-              for other companies should increase your odds of being considered
-              for the position
-            </il>
-            <il>
-              <span>Add fillingd (optional):</span>A well-written resume job
+              can bring to an organization. Regardless of your qualifications
+            </li>
+            <li>
+              <span>Add flilingd (optional):</span>A well-written resume job
               description can offer hiring managers important indications
               regarding the type of employee you are and the potential value you
-              can bring to an organization. Regardless of your qualifications,
-              showing that you have a history of using your knowledge and skills
-              for other companies should increase your odds of being considered
-              for the position
-            </il>
-            <il>
+              can bring to an organization. Regardless of your qualifications
+            </li>
+            <li>
               <span>Fold and serve:</span>A well-written resume job description
               can offer hiring managers important indications regarding the type
               of employee you are and the potential value you can bring to an
-              organization. Regardless of your qualifications, showing that you
-              have a history of using your knowledge and skills for other
-              companies should increase your odds of being considered for the
-              position
-            </il>
-            <il>
+              organization. Regardless of your qualifications
+            </li>
+            <li>
               <span>Enjoy:</span>A well-written resume job description can offer
               hiring managers important indications regarding the type of
               employee you are and the potential value you can bring to an
-              organization. Regardless of your qualifications, showing that you
-              have a history of using your knowledge and skills for other
-              companies should increase your odds of being considered for the
-              position
-            </il>
-          </ul>
+              organization. Regardless of your qualifications
+            </li>
+          </ol>
           <hr></hr>
         </div>
         <h3>Nutrition</h3>

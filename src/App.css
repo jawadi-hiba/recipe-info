@@ -1,14 +1,21 @@
 * {
   /* max-width: 1280px; */
   margin: 0 auto;
-  padding: 0;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
   font-family: cursive;
 }
 
-.header-pic {
-  width: 90vw;
+.header img {
+  width: 99%;
+  height: 25%;
   border-radius: 25px;
+  margin: 8px;
 }
+
+/* .header-pic {
+  width: 90vw;
+} */
 
 .header-disc h2 {
   font-size: 35px;
@@ -16,17 +23,67 @@
   padding-bottom: 1rem;
   padding-top: 1rem;
 }
+
 .header-disc p {
-  padding-bottom: 1rem;
   padding-top: 1rem;
 }
 
 .discription {
   background-color: #fff7fc;
-  border: solid 2px;
+  border-radius: 20px;
+  margin-top: 1rem;
+  /* padding-left: 2rem; */
+  /* padding-bottom: 1rem; */
+  /* white-space-collapse: ; */
+}
+.discription h3 {
+  color: #886a79;
+}
+h3 {
+  font-size: 30px;
+  color: #724f44;
+  padding: 10px 0px 15px 0;
 }
 
 .time-list span {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.time-list {
+  padding-top: 8px;
+  padding-bottom: 5px;
+}
+
+.ingredients {
+  margin-top: 1rem;
+  line-height: 32px;
+}
+
+.ingredients h3 {
+  padding-bottom: 5px;
+  /* color: #724f44; */
+}
+hr {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.instruction {
+  color: black;
+}
+.instruction ol {
+  color: #724f44; /* This sets the color for the list marker */
+}
+
+.instruction ol li {
+  line-height: 30px;
+}
+
+/* .instruction li {
+  justify-content: space-between;
+} */
+
+.instruction span {
   font-size: 1rem;
   font-weight: bold;
 }
