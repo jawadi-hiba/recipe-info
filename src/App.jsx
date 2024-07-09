@@ -84,6 +84,33 @@ function App() {
           A well-written resume job description can offer hiring managers
           important indications regarding the type of employee you are{" "}
         </p>
+
+        <table className="custom-table">
+          {/* <thead>
+            <tr>
+              <th>Column 1</th>
+              <th>Column 2</th>
+            </tr>
+          </thead> */}
+          <tbody>
+            <tr>
+              <td>Calories</td>
+              <td className="colm2">277kcal</td>
+            </tr>
+            <tr>
+              <td>Ca rbs</td>
+              <td className="colm2">0g</td>
+            </tr>
+            <tr>
+              <td>Protien</td>
+              <td className="colm2">20g</td>
+            </tr>
+            <tr>
+              <td>Fat</td>
+              <td>22g</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </>
   );
